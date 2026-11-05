@@ -1,0 +1,8 @@
+# Lệnh mặc định (đã reset config):
+pdf2zh Chapter_02.pdf -li en -lo vi -s google --ignore-cache
+
+# Lệnh khuyến nghị chống tràn chữ / vỡ layout cho Tiếng Việt (Precise mode / Babeldoc):
+pdf2zh Chapter_02.pdf -li en -lo vi -s google --mode precise --compatible --ignore-cache
+
+# Hoặc dùng babeldoc backend:
+pdf2zh Chapter_02.pdf -li en -lo vi -s google --babeldoc --compatible --ignore-cache
